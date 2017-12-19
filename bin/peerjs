@@ -13,7 +13,7 @@ var path = require('path')
         demand: false,
         alias: 'd',
         description: 'debug',
-        default: false
+        default: true
       },
       timeout: {
         demand: false,

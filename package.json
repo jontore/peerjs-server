@@ -29,6 +29,6 @@
   },
   "scripts": {
     "test": "mocha test",
-    "start": "bin/peerjs --port ${PORT:=9000}"
+    "start": "bin/peerjs --port ${PORT:=6000} --key webusb --sslkey ./server.key --sslcert ./server.crt"
   }
 }
